@@ -23,8 +23,6 @@ public class LoginActivity<cardviewSignup> extends AppCompatActivity {
     private TextInputEditText userPassword,userEmail;
     private CardView cardviewSignup;
     private String email,password;
-
-
     private Button loginButton;
 
     @Override
@@ -36,6 +34,7 @@ public class LoginActivity<cardviewSignup> extends AppCompatActivity {
         userPassword =(TextInputEditText)findViewById(R.id.person_password);
         cardviewSignup=(CardView)findViewById(R.id.cardView_signup);
         loginButton=(Button)findViewById(R.id.login_button);
+
 
         loginButton.setOnClickListener(v -> {
 
